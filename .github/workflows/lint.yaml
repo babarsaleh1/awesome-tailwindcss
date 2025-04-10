@@ -9,3 +9,4 @@ jobs:
           fetch-depth: 0
       - run: npx awesome-lint
       - run: npx case-police "./README.md"
+      - run: npx case-police "./README.md.fix"
